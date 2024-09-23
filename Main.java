@@ -107,12 +107,8 @@ public class Main {
         }
     }
 
-    /**
-     * Método para gerenciar a sessão de um aluno logado.
-     * 
-     * @param aluno   O aluno logado.
-     * @param scanner O objeto Scanner para entrada de dados.
-     */
+   
+    
     public static void alunoLogado(Aluno aluno, Scanner scanner) {
         System.out.println("Bem-vindo, " + aluno.getNome() + "!");
         OUTER:
@@ -134,14 +130,7 @@ public class Main {
         }
     }
 
-    /**
-     * Método para gerenciar a sessão de um professor logado.
-     * 
-     * @param professor O professor logado.
-     * @param scanner   O objeto Scanner para entrada de dados.
-     * @param aluno1    O primeiro aluno para gerenciar.
-     * @param aluno2    O segundo aluno para gerenciar.
-     */
+    
     public static void professorLogado(Professor professor, Scanner scanner, Aluno aluno1, Aluno aluno2) {
         System.out.println("Bem-vindo, " + professor.getNome() + "!");
         OUTER:
